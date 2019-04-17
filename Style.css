@@ -16,7 +16,7 @@
   }
   footer {
     position: absolute;
-    top: 70%;
+    top: 100%;
     background-color: #666666;
     text-align: center;
     width: 100%;
@@ -57,48 +57,10 @@ h6 {
     background-color:#4aaaa5;
     color: red;
     font-size: 18px;
-    width: 20%;
-    height: 18%;
+    width: 100%;
     text-align: center;
-    top: 59%;
-    left: 20%
 }
-h7 {
-  position: absolute;
-    display:block;
-    background-color:#4aaaa5;
-    color: red;
-    font-size: 24px;
-    width: 20%;
-    height: 18%;
-    text-align: center;
-    top: 81.5%;
-    left: 40%;
-}
-h8 {
-  position: absolute;
-    display:block;
-    background-color:#4aaaa5;
-    color: red;
-    font-size: 18px;
-    width: 20%;
-    height: 18%;
-    text-align: center;
-    top: 81.5%;
-    left: 60%
-}
-h9 {
-  position: absolute;
-    display:block;
-    background-color:#4aaaa5;
-    color: red;
-    font-size: 20px;
-    width: 20%;
-    height: 18%;
-    text-align: center;
-    top: 81.5%;
-    left: 80%
-}
+
 .name {
   position: absolute;
     display:block;
@@ -182,4 +144,8 @@ img {
   height:150px;
   margin: 5px;
   float:left;
+}
+.relpos {
+  display: inline-block;
+ position: relative; 
 }
